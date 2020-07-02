@@ -1,8 +1,10 @@
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char const *argv[])
 {
-    std::cout<<"hola mundo\n";
-    std::cout<<"segunda linea de c++ en visual code";
+    cout<<"hola mundo\n";
+    cout<<"segunda linea de c++ en visual code";
     return 0;
 }
