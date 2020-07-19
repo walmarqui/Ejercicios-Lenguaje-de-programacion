@@ -29,22 +29,24 @@ int main(int argc, char const *argv[])
         case 1:
             {
                 system("cls");
-                cout <<" Estas en el menu de cafe y granitas";
-                system("pause");  
+                cout <<" Estas en el menu de cafe y granitas"<<endl;
+                system("pause");
+                break;  
             }
         case 2:
             {
                 system("cls");
-                cout << "Estas en el menu de reposteria ";
-                system("pause");  
+                cout << "Estas en el menu de reposteria "<<endl;
+                system("pause");
+                break;  
             }
         default:
             {
-                cout<<"Ingrese una opcion valida (0, 1, 2) ";
+                cout<<"Ingrese una opcion valida (0, 1, 2) "<<endl;
                 system("pause");
             break;
             }
         }
-    
+    }
     return 0;
 }
