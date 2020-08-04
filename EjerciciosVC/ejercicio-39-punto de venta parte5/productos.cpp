@@ -38,7 +38,7 @@ void productos(int opcion)
                 }
             }
             cout << endl;
-            cout <<" Producto Agragado" << endl << endl;
+            cout <<" Producto Agregado" << endl << endl;
             system("pause");
             
             break;
